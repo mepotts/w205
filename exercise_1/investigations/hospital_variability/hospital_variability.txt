@@ -1,0 +1,14 @@
+Emergency Department    10315.0
+Heart Attack or Chest Pain	1328.0
+Blood Clot Prevention and Treatment	768.0
+Preventive Care	235.0
+Stroke Care	104.0
+Heart Failure	101.0
+Pneumonia	86.0
+Children's Asthma	78.0
+Pregnancy and Delivery Care	48.0
+Surgical Care Improvement Project	22.0
+
+According to the data, the Emergency Department has the most variability
+across scores. The query simply uses the variance of the Scores of
+effective_care table. 
