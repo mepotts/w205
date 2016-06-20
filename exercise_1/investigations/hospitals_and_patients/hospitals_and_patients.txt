@@ -1,0 +1,42 @@
+430092  SD  98.0  80.0
+430091	SD	98.0	80.0
+520194	WI	99.0	80.0
+180149	KY	72.0	80.0
+170190	KS	98.0	80.0
+110200	GA	97.0	80.0
+360352	OH	97.0	80.0
+450834	TX	83.0	80.0
+040152	AR	49.0	80.0
+010045	AL	84.0	80.0
+
+The relationship between Scores and Survey Scores was hard to look at in
+a table. The same table was created for States which is more manageable
+to look at. Accross States, there does not seem to be a strong relationship
+between hospital scores and survey scores.
+
+
+SD  87.0  43.0                                                            
+LA	90.0	40.0
+WI	88.0	37.0
+ME	93.0	37.0
+KS	84.0	34.0
+NE	89.0	34.0
+MS	84.0	34.0
+VT	92.0	34.0
+IN	89.0	33.0
+AL	88.0	32.0
+HI	94.0	32.0
+MN	86.0	32.0
+SC	92.0	31.0
+TX	91.0	31.0
+OK	85.0	31.0
+NH	96.0	30.0
+NC	93.0	30.0
+UT	87.0	29.0
+MO	90.0	29.0
+CO	90.0	28.0
+KY	88.0	28.0
+OH	91.0	27.0
+AR	88.0	27.0
+IA	87.0	26.0
+TN	88.0	26.0
