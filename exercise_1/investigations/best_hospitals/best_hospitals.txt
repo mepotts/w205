@@ -1,0 +1,18 @@
+FALLS COMMUNITY HOSPITAL AND CLINIC     MARLIN  TX      236.0   170417.0
+BEAR VALLEY COMMUNITY HOSPITAL	BIG BEAR LAKE	CA	175.0	16418.0
+HOSP COMUNITARIO BUEN SAMARITANO	AGUADILLA	PR	167.0	55089.0
+MEDINA REGIONAL HOSPITAL	HONDO	TX	136.0	5928.0
+NEWARK BETH ISRAEL MEDICAL CENTER	NEWARK	NJ	135.0	38289.0
+REDWOOD MEMORIAL HOSPITAL	FORTUNA	CA	130.0	7996.0
+HOSPITAL HERMANOS MELENDEZ INC	BAYAMON	PR	130.0	19354.0
+COMMUNITY MEMORIAL HOSPITAL, INC	HAMILTON	NY	128.0	4312.0
+MERCY HOSPITAL CASSVILLE	CASSVILLE	MO	128.0	5510.0
+BOONE MEMORIAL HOSPITAL	MADISON	WV	125.0	8041.0
+
+There are a few outliers in the average score.  The variance is relatively high
+for some of the hospitals as well. I believe another measure or algorithm
+may be needed to determine the best hospitals in terms of quality of care.
+The high average score of some of the top hospitals is due to a lack of
+many scores. The documentation about scores is not very descriptive as well.
+So more information about the scores and comparing them across measures is
+needed to truly compare.
