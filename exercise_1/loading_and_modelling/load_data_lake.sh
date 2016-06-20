@@ -1,18 +1,4 @@
-# launch my instance on AWS that was created for lab 3
-cd /Users/matthewpotts/Dropbox/UC\ Berkeley/Storing\ and\ Retrieving\ Data
-ssh
-chmod
-chmod 400 ucb2.pem
-ssh -i ucb2.pem root@ec2-54-152-195-59.compute-1.amazonaws.com
-
-#start hadoop
-/root/start-hadoop.sh
-
-#start postgres
-/data/start_postgres.sh
-
 #create the directory for exercise 1
-su - w205
 hdfs dfs -mkdir /user/w205/hospital_compare
 
 #download hopital files
