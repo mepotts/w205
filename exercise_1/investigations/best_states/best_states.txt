@@ -1,0 +1,15 @@
+DC  101.0 5540.0  272
+DE	100.0	3995.0	239
+MD	100.0	4189.0	1332
+NY	97.0	4300.0	5545
+NV	96.0	3641.0	833
+NJ	96.0	3703.0	2448
+NH	96.0	2157.0	637
+VI	95.0	3202.0	48
+MA	95.0	2689.0	2080
+CT	95.0	2983.0	1050
+
+This query pulls the average of effective_care scores across all measures
+available. It also looks at the variance and count of scores involved.
+We can see that the Virgin Islands do not have many scores due to their
+relative size to other states and territories.
