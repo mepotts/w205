@@ -4,7 +4,7 @@
 
 (defn wordcount [options]
  [
-  ;; senteces spout configuration
+  ;; sentences spout configuration
   {"sentences-spout" (python-spout-spec
         options
         "spouts.sentences.Sentences"
