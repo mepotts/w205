@@ -1,4 +1,5 @@
-from __future__ import absolute_import, print_function, unicode_literals import itertools
+from __future__ import absolute_import, print_function, unicode_literals 
+import itertools
 from streamparse.spout import Spout
 class Sentences(Spout):
   def initialize(self, stormconf, context):
