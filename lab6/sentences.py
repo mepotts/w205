@@ -7,7 +7,7 @@ class Sentences(Spout):
         "She advised him to take a long holiday, so he immediately quit work and took a trip around the world",
         "I was very glad to get a present from her",
         "He will be here in half an hour",
-        "She saw him eating a sandwich",
+        "She saw him eating a sandwich"
     ]
     self.sentences = itertools.cycle(self.sentences)
   def next_tuple(self):
