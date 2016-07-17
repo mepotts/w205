@@ -1,5 +1,5 @@
 (ns wordcount
-(:use     [streamparse.specs])
+(:use     [backtype.storm.clojure])
 (:gen-class))
 
 (defn wordcount [options]
@@ -9,6 +9,7 @@
         options
         "spouts.sentences.Sentences"
         ["sentence"]
+        :p 2
         )
   }
   ;; parse bolt configuration
@@ -16,13 +17,13 @@
         options
         {"sentences-spout" :shuffle}
         "bolts.parse.ParseTweet"
-        ["valid_words"]
+        ["word"]
         :p 2
         )
   ;; tweetcounter bolt configuration
   "tweetcounter-bolt" (python-bolt-spec
         options
-        {"parse-bolt" :shuffle}
+        {"parse-bolt" ["word"]}
         "bolts.tweetcounter.TweetCounter"
         ["word" "count"]
         )
