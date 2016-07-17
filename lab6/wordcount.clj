@@ -1,14 +1,14 @@
-(ns wordcount
+(ns tweetcount
 (:use     [streamparse.specs])
 (:gen-class))
 
-(defn wordcount [options]
+(defn tweetcount [options]
  [
   ;; sentences spout configuration
   {"sentences-spout" (python-spout-spec
         options
         "spouts.sentences.Sentences"
-        ["sentences"]
+        ["sentence"]
         )
   }
   ;; parse bolt configuration
@@ -16,7 +16,7 @@
         options
         {"sentences-spout" :shuffle}
         "bolts.parse.ParseTweet"
-        ["word"]
+        ["valid_words"]
         :p 2
         )
 
