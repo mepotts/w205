@@ -1,5 +1,5 @@
 (ns wordcount
-(:use     [backtype.storm.clojure])
+(:use     [streamparse.specs])
 (:gen-class))
 
 (defn wordcount [options]
