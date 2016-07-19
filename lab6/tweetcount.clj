@@ -9,6 +9,7 @@
         options
         "spouts.sentences.Sentences"
         ["sentence"]
+        :p 1
         )
   }
   ;; parse bolt configuration
