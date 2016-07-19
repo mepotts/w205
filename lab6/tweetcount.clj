@@ -24,7 +24,7 @@
   ;; tweetcounter bolt configuration
   "tweetcounter-bolt" (python-bolt-spec
         options
-        {"parse-bolt" :shuffle}
+        {"parse-bolt" ["valid_words"]}
         "bolts.tweetcounter.TweetCounter"
         ["word" "count"]
         )
